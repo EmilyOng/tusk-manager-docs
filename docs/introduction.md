@@ -13,3 +13,7 @@ Tusk Manager is a fully-featured, clutter-free task management application that 
 1. Collaborate on various projects with others
 2. Keep track of your tasks
 3. ...and more!
+
+:::success Try it out now
+[https://app.tuskmanager.rocks](https://app.tuskmanager.rocks)
+:::

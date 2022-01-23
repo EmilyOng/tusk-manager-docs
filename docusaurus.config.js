@@ -20,14 +20,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/EmilyOng/cvwo-docs',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/EmilyOng/cvwo-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,7 +44,6 @@ const config = {
             position: 'left',
             label: 'Introduction',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/EmilyOng/cvwo-docs',
             label: 'GitHub',

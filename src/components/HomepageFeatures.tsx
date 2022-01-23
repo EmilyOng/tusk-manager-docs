@@ -6,50 +6,45 @@ type FeatureItem = {
   title: string;
   image: string;
   description: JSX.Element;
-  attribution: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy',
-    image: '/img/happiness.png',
+    image: '/img/easy.png',
     description: (
       <>
         Simple and clutter-free interface with intuitive behaviors
       </>
     ),
-    attribution: <a href="https://www.flaticon.com/free-icons/emoji" title="emoji icons">Emoji icons created by Freepik - Flaticon</a>
   },
   {
     title: 'Collaborative',
-    image: '/img/united.png',
+    image: '/img/collaborative.png',
     description: (
       <>
         Share and collaborate with others, anytime, anywhere
       </>
     ),
-    attribution: <a href="https://www.flaticon.com/free-icons/friendship" title="friendship icons">Friendship icons created by Freepik - Flaticon</a>
   },
   {
     title: 'Powerful',
-    image: '/img/cool.png',
+    image: '/img/powerful.png',
     description: (
       <>
         Fully-featured task management system
       </>
     ),
-    attribution: <a href="https://www.flaticon.com/free-icons/cool" title="cool icons">Cool icons created by Ruslan Babkin - Flaticon</a>
   },
 ];
 
-function Feature({title, image, description, attribution}: FeatureItem) {
+function Feature({title, image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <img className={styles.featureSvg} alt={title} src={image} />
       </div>
       <div className="text--center padding-horiz--md">
-      {attribution}
         <h3>{title}</h3>
         <p>{description}</p>
       </div>

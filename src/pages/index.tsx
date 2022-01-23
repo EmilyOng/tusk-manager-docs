@@ -17,7 +17,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="https://www.app.tuskmanager.rocks/">
+              to="https://app.tuskmanager.rocks">
               Try it out
             </Link>
           </div>
