@@ -15,5 +15,5 @@ Tusk Manager is a fully-featured, clutter-free task management application that 
 3. ...and more!
 
 :::success Try it out now
-[https://app.tuskmanager.rocks](https://app.tuskmanager.rocks)
+[https://tusk-manager.vercel.app](https://tusk-manager.vercel.app)
 :::
