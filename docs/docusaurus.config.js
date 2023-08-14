@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'EmilyOng', // Usually your GitHub org/user name.
-  projectName: 'cvwo', // Usually your repo name.
+  projectName: 'tusk-manager', // Usually your repo name.
 
   presets: [
     [
@@ -48,7 +48,7 @@ const config = {
             label: 'Introduction',
           },
           {
-            href: 'https://github.com/EmilyOng/cvwo-docs',
+            href: 'https://github.com/EmilyOng/tusk-manager-docs',
             label: 'GitHub',
             position: 'right',
           },

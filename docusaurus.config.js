@@ -45,7 +45,7 @@ const config = {
             label: 'Introduction',
           },
           {
-            href: 'https://github.com/EmilyOng/cvwo-docs',
+            href: 'https://github.com/EmilyOng/tusk-manager-docs',
             label: 'GitHub',
             position: 'right',
           },

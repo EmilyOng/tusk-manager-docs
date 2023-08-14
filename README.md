@@ -1,6 +1,6 @@
 # docs
 
-![Vercel](https://vercelbadge.vercel.app/api/EmilyOng/cvwo-docs)
+![Vercel](https://vercelbadge.vercel.app/api/EmilyOng/tusk-manager-docs)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
